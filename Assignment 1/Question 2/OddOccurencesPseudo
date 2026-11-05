@@ -1,0 +1,6 @@
+make a function that inputs a list of numbers
+sort those numbers from smallest to largest
+use a while true loop,
+when the first number of the list is equal to the second number
+remove both from the list
+when theyre not, then thats the odd occurence

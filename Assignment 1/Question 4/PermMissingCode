@@ -1,0 +1,23 @@
+def solution(numbers):
+    #make a list of numbers
+    #numbers = [10, 14, 12, 13]
+    #sort those numbers into order of smallest to largest
+    numbers = sorted(numbers)
+    #take that smallest number for later
+    smallest = numbers[0]
+    #run a for loop based on the length of the list
+    for i in range(0, len(numbers)):
+        #lower every number down to a simpler format
+        numbers[i] = numbers[i] - smallest
+    print(numbers)
+    #loop for length of numbers list
+    for j in range(0, len(numbers)):
+        #if the number doesnt equal its position then
+        if numbers[j] != j:
+            #it must be missing that positions number
+            print(j+smallest)
+            break
+
+solution([10,14,12,13])
+
+

@@ -1,0 +1,5 @@
+make a function that inputs the frog starting position, his end goal position, and how far he can jump with each jump
+make a variable to keep track of his jumps
+use a while true loop
+when x is larger than y, then you know he crossed his goal position
+otherwise, you add d to x, and add one to the jump counter

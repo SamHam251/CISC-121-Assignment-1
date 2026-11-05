@@ -1,0 +1,4 @@
+make the solutions function with A and K
+loop for required rotations (K)
+then take the last number and insert it at the start
+after print result

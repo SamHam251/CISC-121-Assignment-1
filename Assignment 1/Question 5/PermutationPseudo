@@ -1,0 +1,7 @@
+make a function that inputs a list of numbers
+make a variable for keeping track of how many times numbers are in order
+sort the numbers from smallest to largest
+save the smallest number for later
+using a for loop we can shrink down the numbers so that they all start from 0
+using a second for loop, we can check if each number equals its position, if not then its not a permutation
+when every number equals their position, they are a permutation

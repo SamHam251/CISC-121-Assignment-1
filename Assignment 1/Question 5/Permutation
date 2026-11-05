@@ -1,0 +1,31 @@
+def solution(numbers):
+    #make a set of numbers
+    #numbers = [4,1,3,2]
+    #make a count for later
+    count = 0
+    #sort the numbers from lowest to highest
+    numbers = sorted(numbers)
+    #keep smallest number for later
+    smallest = numbers[0]
+    #loop for length of numbers list
+    for i in range(0, len(numbers)):
+        #make list simpler format
+        numbers[i] = numbers[i] - smallest
+    print(numbers)
+    #loop for length of numbers list
+    for j in range(0, len(numbers)):
+        #if they dont equal to the position, then
+        if numbers[j] != j:
+            #its not a permutation
+            print("this is not a permutation", 0)
+            break
+        else:
+            #count up how many times the numbers are in order
+            count += 1
+            continue
+    #if that count is equivalent to the length of the original list,
+    if count == len(numbers):
+        #then it must be a permutation
+        print("this is a permutation", 1)
+
+solution([4,1,3,2])

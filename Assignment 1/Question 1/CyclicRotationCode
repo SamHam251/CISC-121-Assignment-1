@@ -1,0 +1,9 @@
+def solution(A, K):
+    print(A,K)
+    #A = [3, 8, 9, 7, 6]
+    #K = int(input("How many rotations do we want this time: "))
+    for i in range(0, K):
+        A.insert(0, A.pop(len(A)-1))
+    print(A)
+
+solution([3,8,9,7,6], 1)

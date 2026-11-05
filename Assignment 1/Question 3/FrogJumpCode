@@ -1,0 +1,14 @@
+def solution(x,y,d):
+    #x = int(input("Whats the frogs starting pos: "))
+    #y = int(input("Whats his goal: "))
+    #d = int(input("How far can frog jump?"))
+    total_jumps = 0
+    while True:
+        if x >= y:
+            print("He made it in", total_jumps, "jumps")
+            break
+        else: 
+            x += d
+            total_jumps += 1
+
+solution(10, 1000, 40)

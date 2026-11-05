@@ -1,0 +1,7 @@
+make a function that inputs a list of numbers
+sort those numbers from lowest to highest
+take that smallest number and save it for later
+with a for loop, you can make every number lower, so that the first number starts from 0, rather than something random like 10
+using another for loop, you can check if each number is equivalent to its position
+if one of the numbers is not equivalent, then that is the missing number, 
+then we add the difference between the answer and smallest number back to the result to get the final answer 
